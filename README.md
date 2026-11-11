@@ -12,7 +12,7 @@ presentation are still pending.**
 
 - `Hotel_Sentiment_Final.ipynb`: the complete experiment, saved outputs, and a new-review demo.
 - `requirements.txt`: Python dependencies.
-- `results_student/`: development searches, split counts, test metrics and predictions, error examples, and PNG graphs.
+- `result/`: development searches, split counts, test metrics and predictions, error examples, and PNG graphs.
 - `VERIFICATION.md`: execution and consistency checks.
 - `LICENSE`: the original MIT license and copyright notice.
 
@@ -42,7 +42,7 @@ Source: [Datafiniti Hotel Reviews on Kaggle](https://www.kaggle.com/datasets/dat
 The notebook uses **`Datafiniti_Hotel_Reviews.csv`**, which contains 10,000 rows.
 It downloads and extracts that file automatically if it is missing. Alternatively,
 download it from Kaggle and place it beside the notebook. The raw dataset is
-excluded from this repository; `results_student/*.csv` are included experiment
+excluded from this repository; `result/*.csv` are included experiment
 outputs, including the test review text and predictions.
 
 Cleaning removes missing or blank reviews, invalid ratings, middle ratings, and
@@ -82,7 +82,7 @@ reviews, with no tuning on the test results.
 
 ## Measured results
 
-These are the saved test results in `results_student/test_metrics.csv`. Accuracy
+These are the saved test results in `result/test_metrics.csv`. Accuracy
 is the fraction correct; macro F1 gives the two labels equal weight.
 
 | Test group | Model | Accuracy | Macro F1 |
@@ -101,10 +101,10 @@ Logistic Regression has the higher overall and negation-group macro F1 on this
 split. This result does not establish that it will outperform RoBERTa on other
 datasets or after fine-tuning.
 
-![Overall test performance](results_student/test_comparison.png)
+![Overall test performance](result/test_comparison.png)
 
 The notebook also displays confusion matrices and discusses three actual errors
-from each model. `results_student/error_examples.csv` contains those six examples.
+from each model. `result/error_examples.csv` contains those six examples.
 All 10 code cells were executed successfully on CPU; see [VERIFICATION.md](VERIFICATION.md).
 
 ## Limitations

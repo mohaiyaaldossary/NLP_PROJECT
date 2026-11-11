@@ -36,5 +36,5 @@ __pycache__/
 /NLP_PROJ_before_simplified/
 
 # Keep published experiment tables and predictions
-!results_student/
-!results_student/*.csv
+!result/
+!result/*.csv
