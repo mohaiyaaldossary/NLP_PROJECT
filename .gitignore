@@ -1,0 +1,40 @@
+# Local environments, caches, and temporary files
+.venv/
+.cache/
+.tmp/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*.tmp
+*.bak
+
+# Downloaded dataset CSV files in the project root only
+/*.csv
+
+# Archives
+*.[zZ][iI][pP]
+
+# Credentials, tokens, and environment files
+.env
+.env.*
+*.env
+*.env.*
+*credentials*
+*secrets*
+*token*
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.netrc
+.npmrc
+
+# Local project backups
+/Hotel_Sentiment_Original_Backup.ipynb
+/NLP_PROJ_before_simplified/
+
+# Keep published experiment tables and predictions
+!results_student/
+!results_student/*.csv

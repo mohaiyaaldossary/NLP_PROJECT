@@ -1,0 +1,7 @@
+source_row,text,rating,label,has_negation,Prediction,Model
+508,Good: Staff was rude to me and didn't recognize my platinum status,1.9,Negative,True,Positive,TF-IDF + Logistic Regression
+587,Bad: Even though we asked to have the room cleaned they only folded the towels..had to ask for clean cups and coffee!. Good: No smoking hotel...love the beds!,4.4,Positive,True,Negative,TF-IDF + Logistic Regression
+785,Good: THE HOTEL NEEDS A BETTER COFFEE SHOP FOR QUICK BREAKFAST. WHAT EXISTS THERE IS ONLY OKAY...IT IS NOT INVITING OR OFFERS MUCH WARMTH.,4.6,Positive,True,Negative,TF-IDF + Logistic Regression
+563,Bad: No bathroom vent.,4.4,Positive,True,Negative,RoBERTa
+572,Bad: Not a fan of cigarette smoke. But I guess you can't do anything about it in the gambling area. Silly to charge a resort fee on top of the room charge. Just charge what you need for the room. Good: Very helpful and friendly staff from check in to the valets.,5.0,Positive,True,Negative,RoBERTa
+548,"Bad: Hotel is old, need refurbishment. Good: Value for money",4.15,Positive,False,Negative,RoBERTa
